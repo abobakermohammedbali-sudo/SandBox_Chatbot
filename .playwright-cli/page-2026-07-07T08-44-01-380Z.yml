@@ -1,0 +1,30 @@
+- generic [ref=e2]:
+  - generic [ref=e11]:
+    - heading "📄 Upload Document" [level=2] [ref=e15]
+    - generic [ref=e17]:
+      - paragraph [ref=e21]: Upload a PDF reference document
+      - region "Upload a PDF reference document" [ref=e22] [cursor=pointer]:
+        - button "Choose File" [ref=e23]
+        - button "upload Upload" [ref=e25]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: upload
+            - paragraph [ref=e31]: Upload
+        - generic [ref=e34]: 200MB per file • PDF
+    - button "Process & Index Document" [ref=e37] [cursor=pointer]:
+      - paragraph [ref=e41]: Process & Index Document
+    - paragraph [ref=e46]: Running 100% locally via Ollama. No API quota needed!
+  - generic [ref=e3]:
+    - banner [ref=e49]:
+      - button "Main menu" [ref=e54] [cursor=pointer]:
+        - img [ref=e55]
+    - generic [ref=e58]:
+      - heading "Abobaker RAG Sandbox (Ollama + LangChain)" [level=1] [ref=e65]:
+        - text: Abobaker RAG Sandbox (Ollama + LangChain)
+        - generic [ref=e66]:
+          - link "Link to heading":
+            - /url: "#abobaker-rag-sandbox-ollama-lang-chain"
+            - img
+      - generic [ref=e75]:
+        - textbox "Ask something about your data or type a generic question..." [active] [ref=e79]
+        - button "Send message" [disabled] [ref=e81]:
+          - img [ref=e82]
